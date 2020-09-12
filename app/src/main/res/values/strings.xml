@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidSnippets</string>
+    <string name="hide_status_bar">Hide Status Bar</string>
+    <string name="show_status_bar">Show Status Bar</string>
+</resources>
