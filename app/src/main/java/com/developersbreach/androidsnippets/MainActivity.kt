@@ -1,6 +1,5 @@
 package com.developersbreach.androidsnippets
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -14,19 +13,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         hide_button.setOnClickListener {
-            hideStatusBar(this)
+            hideStatusBar()
         }
 
         show_button.setOnClickListener {
-            showStatusBar(this)
+            showStatusBar()
         }
     }
 
-    private fun showStatusBar(activity: Activity) {
-        activity.window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_VISIBLE
+    private fun hideStatusBar() {
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
     }
 
-    private fun hideStatusBar(activity: Activity) {
-        activity.window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+    private fun showStatusBar() {
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_VISIBLE
     }
 }

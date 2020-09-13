@@ -29,10 +29,12 @@ public class StatusActivity extends AppCompatActivity {
     }
 
     private void hideStatusBar() {
-        this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
+        View windowDecorView = getWindow().getDecorView();
+        windowDecorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
     }
 
     private void showStatusBar() {
-        this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
+        View windowDecorView = getWindow().getDecorView();
+        windowDecorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
     }
 }
