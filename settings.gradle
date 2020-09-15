@@ -1,2 +1,3 @@
-include ':app'
 rootProject.name = "AndroidSnippets"
+include ':App1-HideStatusBar'
+include ':App2-NoArgsFragment'
