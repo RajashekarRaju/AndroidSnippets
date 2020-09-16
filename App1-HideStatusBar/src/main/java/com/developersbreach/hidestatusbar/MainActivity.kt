@@ -1,8 +1,9 @@
-package com.developersbreach.androidsnippets
+package com.developersbreach.hidestatusbar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.developersbreach.androidsnippets.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 @Suppress("DEPRECATION")

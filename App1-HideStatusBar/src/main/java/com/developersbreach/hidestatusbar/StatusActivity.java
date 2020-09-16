@@ -1,10 +1,12 @@
-package com.developersbreach.androidsnippets;
+package com.developersbreach.hidestatusbar;
 
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.developersbreach.androidsnippets.R;
 
 public class StatusActivity extends AppCompatActivity {
 
